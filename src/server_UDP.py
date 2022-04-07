@@ -31,7 +31,7 @@ def main():
         print("Run like: python3 server_UDP.py serverIP serverPORT")
         exit(1)
 
-    taxa_perda = float(input("Type the artificial loss rate(%) of your ping-pong: "))/100
+    taxa_perda = 0.0
     server_address = (ip, port)
     ping_pong(server_address, taxa_perda)
 
